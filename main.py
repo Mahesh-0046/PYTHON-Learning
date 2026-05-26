@@ -1,14 +1,21 @@
-# Start with a basic print function
-print("First python function")
+#1. print_statements.py
+print("Hello World")
+print("My name is Mahesh")
+print("I am learning Python")
 
-# Indentation
-if 5 > 2:
-    print("Five is greater than two")
-else:
-    print("Invalid entry")
-
-# Variables
+#2. variables.py
 name = "Mahesh"
-date = "12-6-2026"
+age = 25
+weight = 75.5
 
-print("My name is:", name, "and today's date is:", date)
+print("Name:", name)
+print("Age:", age)
+print("Weight:", weight)
+
+#3. if_else.py
+age = 18
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
